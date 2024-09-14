@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //config variables
 const currency = "usd";
 const deliveryCharge = 5;
-const frontend_URL = 'https://quickbite-frontend-live.onrender.com';
+const frontend_URL = 'https://quickbite-live.onrender.com';
 
 // Placing User Order for Frontend using stripe
 const placeOrder = async (req, res) => {
